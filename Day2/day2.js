@@ -1,6 +1,6 @@
 const fs = require("fs");
 const array = fs
-  .readFileSync("C:\\JavaScript\\Advencode\\measurements2.txt", "utf8")
+  .readFileSync("C:\\JavaScript\\Advencode\\Day2\\measurements2.txt", "utf8")
   .split("\r\n");
 
 //part1

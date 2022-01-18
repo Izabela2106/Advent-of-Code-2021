@@ -1,6 +1,6 @@
 const fs = require("fs");
 const array = fs
-  .readFileSync("C:\\JavaScript\\Advencode\\measurments1.txt", "utf8")
+  .readFileSync("C:\\JavaScript\\Advencode\\Day1\\measurments1.txt", "utf8")
   .split("\r\n");
 const measurements = array.map((number) => parseInt(number));
 let numberOfIncrease1 = 0;

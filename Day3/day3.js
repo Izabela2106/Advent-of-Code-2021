@@ -1,6 +1,6 @@
 const fs = require("fs");
 const array = fs
-  .readFileSync("C:\\JavaScript\\Advencode\\measurements3.txt", "utf8")
+  .readFileSync("C:\\JavaScript\\Advencode\\Day3\\measurements3.txt", "utf8")
   .split("\r\n");
 const lenthOfnumber = array[0].length;
 

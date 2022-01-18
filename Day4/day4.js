@@ -1,6 +1,6 @@
 const fs = require("fs");
 let array = fs
-  .readFileSync("C:\\JavaScript\\Advencode\\measurements4.txt", "utf8")
+  .readFileSync("C:\\JavaScript\\Advencode\\Day4\\measurements4.txt", "utf8")
   .split("\r\n");
 
 let boardsCount = 1;
